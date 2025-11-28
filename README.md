@@ -1,13 +1,14 @@
-
 # Đồ án tốt nghiệp Data Science
+
 ## Topic: Dự đoán giá, xác định bất thường giá cho xe máy
 
-## Giới thiệu chung
 Đây là bài đồ án tốt nghiệp với topic Dự đoán giá, xác định bất thường giá cho xe máy cũ của nhóm học viên **Nguyễn Ngọc Giao** - **Nguyễn Thị Tuyển** thực hiện.
 Bao gồm các bài toán sau:
-- Bài toán 1: Dự đoán giá xe theo theo các thông tin được cung cấp trên trang chợ tốt để gợi ý cho người bán giá hợp lý
-- Bài toán 2: Phát hiện bất thường về giá để cảnh báo bất thường.
+- 🔍 **Bài toán 1**: Dự đoán giá xe theo theo các thông tin được cung cấp trên trang chợ tốt để gợi ý cho người bán giá hợp lý
+- 📝 **Bài toán 2**: Phát hiện bất thường về giá để cảnh báo bất thường.
 - Tạo GUI để nhập thông tin xe và nhận giá dự báo, cảnh báo khi giá bất thường
+
+---
 
 ## Cài đặt
 Để chạy được file cần cài đặt các thư viện:
@@ -25,7 +26,7 @@ cd final/GUI
 streamlit run app.py
 ```
 Nhập thông tin xe → nhấn Predict → nhận giá dự đoán.
-5. Webapp: https://dubaobatthuongv1-bnigjbuhepgjzgndxc63nz.streamlit.app/
+5. Webapp: 🌐 **Featured Resource: <a href="[https://dubaobatthuongv1-bnigjbuhepgjzgndxc63nz.streamlit.app/]" target="_blank" rel="noopener noreferrer">Dự báo bất thường</a>** 
 
 ## Cấu trúc file
 final/
