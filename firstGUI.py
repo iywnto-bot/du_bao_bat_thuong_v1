@@ -153,7 +153,7 @@ if choice == 'Home':
    
     with col2:
         st.markdown("#### 🤖 Cảnh báo bất thường")
-        st.write("Cảnh báo bất thường dựa trên giá đề nghị và giá dự đoán.")
+        st.write("Cảnh báo bất thường dựa trên phân tích sai số giữa giá đề nghị và giá dự đoán.")
     
     with col1:
         st.markdown("#### 🚀 Dự đoán giá trị xe")
@@ -175,10 +175,12 @@ elif choice=="Chợ xe máy cũ và Mục tiêu của dự án":
             - Sử dụng các thuật toán machine learning xây dựng mô hình: 
                 - Dự báo tương đối chính xác giá bán của các loại xe máy cũ căn cứ vào các thông số thực tế của xe phục vụ việc quảng cáo của người bán và việc tìm kiếm của người mua.
                 - Phát hiện giá bán bất thường từ những thông số thực tế của xe máy rao bán.
-                - Gợi ý các loại xe máy tương tự căn cứ vào các thông số xe cung cấp bởi người dùng.
-                - Phân khúc các loại xe máy cũ bằng các số liệu về các thông số của xe đã thu thập được.
             - Phát triển ứng dụng web để người sử dụng có thể truy xuất trực tuyến kết quả của các mô hình đã xây dựng.
             """)
+    st.info("📁 Dataset gồm hơn 7000 xe từ 195 thương hiệu với nhiều phân khúc từ bình dân đến cao cấp.")
+    fig, ax = plt.subplots()
+    ax.hist(df["Gia"])
+    st.pyplot(fig)
     
 # -----------------------------------------------------------------------------
 # TAB 3: ĐÁNH GIÁ MÔ HÌNH
@@ -529,4 +531,5 @@ elif choice=="Phân chia công việc trong nhóm nghiên cứu":
             - Xây dựng GUI phần Cosin similarity, Gensim và phân cụm 
 
             """)     
+
 
