@@ -57,7 +57,7 @@ final/
 3. Loại bỏ outlier và biến đổi dữ liệu: string và category sang dạng số
 4. Trực quan hóa bằng matplotlib và seaborn và phân tích mối quan hệ giữa Năm sản xuất, Số km đã đi, Thương hiệu, Dòng xe, Loại xe với Giá
 5. Chuẩn hóa dữ liệu bằng StandardScaler
-6. Sử dụng các feature 'Năm đăng ký', 'Số Km đã đi', 'Thương hiệu_ohe','Dòng xe_ohe','Loại xe_ohe', 'Dung tích xe_ohe','Xuất xứ_ohe' để dự đoán giá
+6. Sử dụng các feature 'Năm đăng ký', 'Số Km đã đi', 'Thương hiệu,'Dòng xe','Loại xe', 'Dung tích xe','Xuất xứ' để dự đoán giá
 7. Dự đoán giá trên môi trường Pyspark bằng các model: Linear Regression, Decision Tree, RandomForest, GBT Regressor
 8. Dự đoán giá trên môi trường scikit-learn bằng các model: Linear Regression, Decision Tree, RandomForest, SVR, XGBoost
 ### Bài toán 2:
