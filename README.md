@@ -26,7 +26,7 @@ cd final/GUI
 streamlit run app.py
 ```
 Nhập thông tin xe → nhấn Predict → nhận giá dự đoán.  
-5. Webapp: 🌐 **Featured Resource: <a href="[https://dubaobatthuongv1-bnigjbuhepgjzgndxc63nz.streamlit.app/]" target="_blank" rel="noopener noreferrer">Dự báo bất thường</a>** 
+5. 🌐 **Web app: <a href="[https://dubaobatthuongv1-bnigjbuhepgjzgndxc63nz.streamlit.app/]" target="_blank" rel="noopener noreferrer">Dự báo bất thường</a>** 
 
 ## Cấu trúc file
 
